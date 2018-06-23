@@ -1,7 +1,7 @@
 {
   "name": "venuebooker-platform",
   "devDependencies": {
-    "all-contributors-cli": "^4.11.1",
+    "all-contributors-cli": "^5.2.0",
     "randomstring": "^1.1.5",
     "testcafe": "^0.18.2"
   },
