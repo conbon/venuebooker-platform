@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 
 class Title extends Component {
-
     render() {
-        const {name, type, creator, reviews} = this.props;
+        const { name, type, creator, reviews } = this.props;
 
         return (
             <div className="list-single-header list-single-header-inside fl-wrap">

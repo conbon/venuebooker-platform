@@ -4509,7 +4509,7 @@ footer.main-footer.fixed-footer {
 	padding-bottom:25px;
 }
 .sub-footer {
-	margin-top:40px;
+	/* margin-top:40px; */
 	background:#24324F;
 	padding:28px 0;
 }

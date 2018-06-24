@@ -28,11 +28,11 @@ class ImageCarousel extends Component {
                     <div className="slick-slide-item">
                         <div className="box-item">
                             <img
-                                src="https://www.wellingtonparkhotel.com/cmsGallery/photo/1776/resized/800x600/45_1.jpg"
+                                src="https://media-cdn.tripadvisor.com/media/photo-s/07/00/67/b0/benedicts-hotel.jpg"
                                 alt=""
                             />
                             <a
-                                href="https://www.wellingtonparkhotel.com/cmsGallery/photo/1776/resized/800x600/45_1.jpg"
+                                href="https://media-cdn.tripadvisor.com/media/photo-s/07/00/67/b0/benedicts-hotel.jpg"
                                 className="gal-link popup-image"
                             >
                                 <i className="fa fa-search" />

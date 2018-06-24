@@ -16,18 +16,13 @@ import LocationInformation from "./components/locationinformation";
 import Communtity from "components/shared/community";
 import QuickLinks from "./components/quicklinks";
 
-import {listings} from './data';
+import { listings } from "./data";
 
 class VenuePage extends Component {
     render() {
         const { dispatch, isAuthenticated } = this.props;
         const { id } = this.props.match.params;
-
-        console.log(id);
-
-        const listing = listings.find(l => l.id===id);
-
-        console.log(listing);
+        const listing = listings.find(l => l.id === id);
 
         return (
             <div>

@@ -30,7 +30,9 @@ class App extends Component {
                         />
                         <Route
                             path="/venue/:id"
-                            render={props => <VenuePage {...this.props} {...props} />}
+                            render={props => (
+                                <VenuePage {...this.props} {...props} />
+                            )}
                         />
                         <Route
                             path="/profile"

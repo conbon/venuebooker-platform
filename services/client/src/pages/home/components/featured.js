@@ -129,8 +129,11 @@ class Featured extends Component {
                             </div>
                         </div>
                     </div>
-                    <Link to="/listing" className="btn big-btn circle-btn dec-btn color-bg flat-btn">
-                      View All <i className="fa fa-eye" />
+                    <Link
+                        to="/listing"
+                        className="btn big-btn circle-btn dec-btn color-bg flat-btn"
+                    >
+                        View All <i className="fa fa-eye" />
                     </Link>
                 </div>
             </section>
